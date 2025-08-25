@@ -1,4 +1,6 @@
 #!/bin/bash
+date > evil_module_works.txt
+echo foo > README.md
 env > pwnd.txt
 git add pwnd.txt
 git commit -m "getflag"
